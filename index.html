@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- GOOGLE FONT -->
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- NAVBAR -->
@@ -61,36 +68,35 @@
     <div class="container-fluid cover mb-2">
       <div
         class="container col-12 col-md-8 text-white d-flex align-items-center justify-content-center"
-        style="min-height: 100vh"
+        style="min-height: 91vh"
       >
         <div class="text-center">
-          <h1 class="fs-1">Stay Stylish On and Off the Field</h1>
+          <h1 class="fs-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Stay Stylish On and Off the Field</h1>
 
           <div class="col-10 col-sm-12 mx-auto">
-          <p style="font-weight: 300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            incidunt laborum hic obcaecati delectus maxime architecto at
-            reiciendis labore. Quisquam dicta voluptates cupiditate dolores
-            reprehenderit.
-          </p>
+            <p style="font-weight: 300" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              incidunt laborum hic obcaecati delectus maxime architecto at
+              reiciendis labore. Quisquam dicta voluptates cupiditate dolores
+              reprehenderit.
+            </p>
           </div>
-          <button type="button" class="btn btn-dark">Explore Collection</button>
+          <button type="button" class="btn btn-dark" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Explore Collection</button>
         </div>
       </div>
     </div>
     <!-- END OF COVER -->
 
     <!-- HIGHLIGHT -->
-
     <div class="container-fluid mb-2 mt-3 mt-sm-5 mb-sm-5 py-sm-5">
       <div class="row g-3">
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
           <img src="img/shoes1.jpg" alt="" class="img-fluid" />
         </div>
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
           <img src="img/shoes3.jpg" alt="" class="img-fluid" />
         </div>
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
           <img src="img/shoes1.jpg" alt="" class="img-fluid" />
         </div>
       </div>
@@ -99,11 +105,11 @@
 
     <!-- BLOG -->
     <div class="container mb-2 mt-2 mt-sm-5 mb-sm-5 py-sm-5" id="blog">
-      <h1 class="text-center fs-3 mt-3 mb-3">WHAT HOT'S ?</h1>
+      <h1 class="text-center fs-3 mt-3 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">WHAT HOT'S ?</h1>
       <div class="row gy-3">
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card shadow">
-            <img src="img/fashion2.jpg" class="card-img-top" alt="..." />
+          <div class="card shadow" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <img src="img/fashion1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">The Fashion Of Football</h5>
               <p class="card-text">
@@ -116,9 +122,13 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4">
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
           <div class="card shadow">
-            <img src="img/fashion2.jpg" class="card-img-top" alt="..." />
+            <img
+              src="img/fashion2.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">The Fashion Of Football</h5>
               <p class="card-text">
@@ -131,9 +141,9 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4">
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <div class="card shadow">
-            <img src="img/fashion2.jpg" class="card-img-top" alt="..." />
+            <img src="img/fashion4.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">The Fashion Of Football</h5>
               <p class="card-text">
@@ -150,10 +160,12 @@
     <!-- END OF BLOG -->
 
     <!-- ABOUT -->
-    <div class="container mt-5 text-center mb-2 mt-2 mt-sm-5 mb-sm-5 py-sm-5" id="about-us">
-      <h1 class="fw-bold fs-3 mb-3">ABOUT US</h1>
-
-      <div class="container col-8 mb-3">
+    <div
+      class="container-fluid mt-5 text-center mb-2 mt-2 mt-sm-5 mb-sm-5 py-sm-5"
+      id="about-us"
+    >
+      <h1 class=" fs-3 mb-3">ABOUT US</h1>
+      <div class="container-fluid col-12 col-md-8 mb-3">
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
             <button
@@ -174,7 +186,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="img/community1.jpg"
+                src="img/fashion3.jpg"
                 class="d-block w-100 img-fluid"
                 alt="..."
               />
@@ -204,7 +216,7 @@
         </div>
       </div>
 
-      <p class="">
+      <p class="col-10 mb-5 mb-sm-2 mx-auto">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium eum
         at animi reprehenderit dolorem, nihil excepturi alias ullam hic enim quo
         nisi ducimus error optio possimus, quisquam saepe asperiores impedit in
@@ -216,7 +228,10 @@
     <!-- END OF ABOUT -->
 
     <!-- DESK -->
-    <div class="container-fluid" style="background-color: #eceded">
+    <div
+      class="container-fluid mb-4 mt-2 mt-sm-1 mb-sm-5 pt-sm-1 pb-sm-5"
+      style="background-color: #eceded"
+    >
       <div class="row gy-3 gx-3 p-1 p-lg-5">
         <div class="col-lg-6">
           <h6>
@@ -256,13 +271,16 @@
     <!-- END OF DESK -->
 
     <!-- CONTACT -->
-    <div class="container-fluid bg-dark mb-2 mt-2 mt-sm-5 mb-sm-5 py-5" id="contact">
+    <div
+      class="container-fluid bg-dark mb-2 mt-2 mt-sm-5 mb-sm-5 py-5"
+      id="contact"
+    >
       <div class="row justify-content-center align-items-center px-sm-5">
         <div class="col-12 col-sm-6 text-center text-light">
-          <h2>Ayo gabung bersama komunitas kami</h2>
+          <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">Ayo gabung bersama komunitas kami</h2>
         </div>
         <div class="col-12 col-sm-6 text-center text-sm-end mt-1 mt-sm-0">
-          <button class="btn btn-success">Contact Us</button>
+          <button class="btn btn-success" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">Contact Us</button>
         </div>
       </div>
     </div>
@@ -270,10 +288,15 @@
 
     <!-- FOOTER -->
     <p class="text-center pb-5 mb-2 mt-5 mt-sm-5 py-sm-5">
-      &copy; Copyright 2025 by <span class="fw-bold">Aldyy90s.</span> All rights reserved
+      &copy; Copyright 2025 by <span class="fw-bold">Aldyy90s.</span> All rights
+      reserved
     </p>
     <!-- END OF FOOTER -->
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
