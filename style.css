@@ -7,7 +7,7 @@
 }
 
 .cover{
-  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("img/fashion2.jpg");
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("img/hero.jpg");
   background-size: cover;
   background-position: center;
   min-height: 91vh;
